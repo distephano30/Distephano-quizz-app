@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Distephano Quizz</title>
+  </head>
+  <body>
+    <h1>Distephano Quizz</h1>
+    <div class="quiz-container">
+      <div class="question hide">What is 2 * 2?</div>
+
+      <p class="welcome">
+        Welcome to the distephano quizz app! <br />
+        I made this quizz using <span>HTMl, CSS and JavaScript</span> to
+        practice what I've learned so far in my
+        <span>frontend web development learning journey.</span>
+      </p>
+
+      <div class="answer-container">
+        <div class="answer hide">
+          <ul>
+            <li>
+              <input type="radio" id="option" name="answer" value="4" />
+              <label for="option-1">4</label>
+            </li>
+            <li>
+              <input type="radio" id="option" name="answer" value="6" />
+              <label for="option-2">6</label>
+            </li>
+            <li>
+              <input type="radio" id="option" name="answer" value="2" />
+              <label for="option-3">2</label>
+            </li>
+            <li>
+              <input type="radio" id="option" name="answer" value="8" />
+              <label for="option-4">8</label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="controls">
+          <button class="btn start-btn">Start</button>
+          <button class="btn submit-btn hide">Submit</button>
+          <button class="btn next-btn hide">Next</button>
+          <button class="btn finish-btn hide">Finish</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
