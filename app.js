@@ -31,7 +31,7 @@ const questions = [
     question:
       "What year did the Titanic sink in the Atlantic Ocean on 15 April, on its maiden voyage from Southampton?",
     a: "1912",
-    b: "1918",
+    b: "1908",
     c: "1892",
     d: "1898",
     correct: "1912",
@@ -48,7 +48,7 @@ const questions = [
     question: "Which metal was discovered by Hans Christian Oersted in 1825?",
     a: "Sodiunm",
     b: "Potassiunm",
-    c: "Tutaniunm",
+    c: "Titaniunm",
     d: "Aluminium",
     correct: "Aluminium",
   },
